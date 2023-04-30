@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Anti Carnism Chrom Extension",
+  "description": "Holding non-vegans accountable for supporting animal abuse",
+  "version": "1.0",
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*.jpeg"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
