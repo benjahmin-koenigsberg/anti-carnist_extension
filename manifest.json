@@ -2,10 +2,14 @@
   "manifest_version": 3,
   "name": "Anti Carnism Chrom Extension",
   "description": "Holding non-vegans accountable for supporting animal abuse",
-  "version": "1.0",
+  "version": "0.0.0.1",
+  "icons": {
+    "128": "images/endSpeciesism.png",
+    "16": "images/endSpeciesism.png"
+  },
   "web_accessible_resources": [
     {
-      "resources": ["images/*.jpeg"],
+      "resources": ["images/*.jpeg", "images/*.png", "images/*.jpg"],
       "matches": ["<all_urls>"]
     }
   ],
