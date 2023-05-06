@@ -1,0 +1,19 @@
+    body {
+        margin: 0;
+        padding: 2rem;
+        background-color: #F5F5F5;
+        font-family: monospace;
+        font-size: 1rem;
+    }
+
+    .wrapper {
+        height: 20rem;
+        width: 20rem;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        margin: 0 auto;
+    }

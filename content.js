@@ -97,6 +97,10 @@ for (imgElt of imgs) {
     imgElt.src = pigImg;
     imgElt.srcset = pigImg;
   }
+   if (imgElt.alt.toLowerCase().includes("pork")) {
+     imgElt.src = pigImg;
+     imgElt.srcset = pigImg;
+   }
   if (imgElt.alt.toLowerCase().includes("ham")) {
     imgElt.src = pigImg;
     imgElt.srcset = pigImg;
@@ -151,9 +155,17 @@ for (imgElt of imgs) {
 
 replaceImages()
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", () => {
   replaceImages();
 });
+
+window.addEventListener("click", () => {
+  replaceImages();
+});
+
+window.addEventListener("click", replaceImages
+);
+
 
 //clearInterval(()=>{runAgain}, 5000)
 
