@@ -71,9 +71,6 @@ let turkeyImg = chrome.runtime.getURL(turkeyFile);
 
 function replaceImages(){
 
-
-
-
 let imgs = document.getElementsByTagName("img");
 
 for (imgElt of imgs) {
@@ -152,6 +149,7 @@ for (imgElt of imgs) {
 }
 
 }
+
 
 replaceImages()
 

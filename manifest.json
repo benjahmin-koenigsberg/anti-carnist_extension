@@ -3,16 +3,17 @@
   "name": "Anti Carnism Chrome Extension",
   "description": "Holding non-vegans accountable for supporting animal abuse",
   "version": "0.0.0.1",
+  "permissions": ["activeTab", "scripting"],
   "icons": {
     "128": "images/veganIcon128.png",
     "16": "images/veganIcon16.png",
     "32": "images/veganIcon32.png",
     "48": "images/veganIcon48.png"
   },
-  "background":{
-"background_script": "background.js"
+  "background": {
+    "background_script": "background.js"
   },
-  "action":{
+  "action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "images/veganIcon16.png",
