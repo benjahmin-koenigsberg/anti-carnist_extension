@@ -10,3 +10,9 @@ A chrome web extension that replaces all images with alt tags mentioning cooked 
 With help from https://thecodingtrain.com/ 
 
 and Patrick McCullough https://pg.mccullo.ug/h
+
+
+```
+all animals want to live!
+https://www.dominionmovement.com/
+```
