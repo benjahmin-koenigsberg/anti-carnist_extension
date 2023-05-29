@@ -23,7 +23,10 @@ and Patrick McCullough https://pg.mccullo.ug/h
 
 * Clone this repo
 * Unzip the images or download your own from We Animals Media
-* Visit chrome://extensions/
+* Visit
+``` 
+chrome://extensions/
+```
 * Turn on developer mode (red arrow)
 * Upload the manifest.js file (green arrow)
 ![chrome_ext_dev](https://github.com/benjahmin-koenigsberg/anti-carnist_extension/assets/116445988/a67df4a8-ff34-4a77-a978-9abe1e54a8de)
